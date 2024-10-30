@@ -285,8 +285,11 @@ footer a {
 } 
 .hidden{
     opacity: 0;
+    /* transform: perspective(); */
     transform: translateX(-50%);
     filter: blur(5px);
+    /* height: 0px;
+    width: 0px; */
     transition: all 1s;
 }
 .show{
